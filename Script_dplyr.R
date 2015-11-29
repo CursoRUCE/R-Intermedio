@@ -14,7 +14,7 @@ devtools::install_github("hadley/dplyr")
 # Cargamos la informacion necesaria
 library(dplyr)
 
-hflights <- tbl_df(read.csv("hflights.csv", stringsAsFactors = FALSE))
+hflights <- tbl_df(read.csv("flights.csv", stringsAsFactors = FALSE))
 
 hflights_db <- src_sqlite("hflights.sqlite3", create = TRUE)
 
