@@ -134,7 +134,7 @@ c("B", "3", "E") %in% LETTERS
 
 vec <- c(3.4, NA_real_, -7.1)
 typeof(vec)
-vec <- c(5, NA_integer_, 9)
+vec <- c(5, NA_integer_, 9, NaN)
 typeof(vec)
 
 vec <- c("a", NA_character_, "b")
